@@ -1,0 +1,36 @@
+.links-menu {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    color: whitesmoke;
+    background-color: #660330;
+    padding: 6px 0;
+  }
+  
+  .links-menu-item {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+    text-align: center;
+  
+    user-select: none;
+    min-width: 64px;
+    line-height: 36px;
+    padding: 0 16px;
+  
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex: 1;
+  }
+  
+  .links-menu-item:hover {
+    background-color: #660330;
+  }
+  
+  .links-menu-item:active {
+    background-color: rgb(170, 170, 170);
+  }
+  
